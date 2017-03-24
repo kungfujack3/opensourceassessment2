@@ -28,6 +28,9 @@ namespace ConverterApp
             Application.Exit();
         }
 
+        //-----------------------------------------
+        //               CM to Inches
+        //-----------------------------------------
         private void btn_CM_to_Inches_Click(object sender, EventArgs e)
         {
             const double CM_TO_INCH = 0.3937;
@@ -52,6 +55,9 @@ namespace ConverterApp
             }
         }
 
+        //-----------------------------------------
+        //               M to Feet
+        //-----------------------------------------
         private void btn_M_to_Feet_Click(object sender, EventArgs e)
         {
             const double M_TO_FEET = 3.2808;
@@ -76,6 +82,9 @@ namespace ConverterApp
             }
         }
 
+        //-----------------------------------------
+        //               Celsius to Fahrenheit
+        //-----------------------------------------
         private void btn_C_to_F_Click(object sender, EventArgs e)
         {
             const double X = 9;
@@ -102,6 +111,9 @@ namespace ConverterApp
             }
         }
 
+        //-----------------------------------------
+        //               CM to Feet
+        //-----------------------------------------
         private void btn_CM_to_Feet_Click(object sender, EventArgs e)
         {
             const double CM_TO_FEET = 0.032808;
@@ -126,6 +138,9 @@ namespace ConverterApp
             }
         }
 
+        //-----------------------------------------
+        //               KM to Miles
+        //-----------------------------------------
         private void btn_KM_to_Miles_Click(object sender, EventArgs e)
         {
             const double KM_TO_MILES = 0.6213712;
